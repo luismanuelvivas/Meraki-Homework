@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.topBar{
+    background:#edc0bd;
+}
+
+.secondBar{
+    padding:0 8.5em;
+}
+
+.price{
+    color:#edc0bd;
+    font-size:1.25em;
+    font-weight: 500;
+}
+
+header{
+    background: url("/Pics/Banner.jpg") no-repeat top;
+    background-size:cover;
+    padding-bottom: 8.2em;
+}
+
+header svg{
+    fill:#361e45;
+}
+
+header .containerHeader{
+    padding:4.5em 3em;
+}
+
+header nav div ul li{
+    margin:1.85em;
+    color:#361e45
+}
+
+header button{
+    width:29%;
+    background:#4fd6c5;
+    border:none;
+    color:white;
+}
+
+header h1{
+    color:#361e45;
+    font-weight: 400;
+}
+
+header .container p{
+    color:#361e45;
+}
+ul{list-style: none;}
+
+.sectionFeatured{
+    padding:4em 0;
+}
+
+.sectionFeatured p{
+    letter-spacing: 1.5px;
+    color: #361e45;
+    font-weight: 500;
+}
+
+.contenedor-iconos svg{
+    width:1.5em;
+    height:1.5em;
+}
+
+.programs{
+    color:#552473;
+}
+
+.programs div{
+    height:400px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.programs svg{
+    fill:#edc0bd;
+    margin:0.1em;
+    width:0.8em;
+    height:auto;
+}
+
+.programs div button{
+    width:85%;
+    background: #4fd6c5;
+    color: white;
+    border: none;
+}
+
+.program1{
+    width:99%;
+    background: url("/Pics/2015-10-26\ 12.04.46.jpeg") no-repeat;
+    background-size: cover;
+}
+
+.program2{
+    width:99%;
+    background: url("/Pics/A-Asian-man-and-baby-girl-1096875104_2125x1414.jpeg") no-repeat;
+    background-size: cover;
+}
+
+.program3{
+    width:99%;
+    background: url("/Pics/sleeping-baby-3-months-light.jpg") no-repeat;
+    background-size: cover;
+}
+
+/*ICONS SECTION*/
+
+.iconsRow{
+    color:#361e45;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+/*ebooks*/
+.sectionEbooks{
+    margin-top: 150px;
+    padding-top:6.5em;
+    padding-bottom:650px;
+    background:#f7f7f7;
+    height:600px;
+    color:#552473;
+}
+
+.ebooks h2{
+    margin-bottom:1.5em;
+}
+
+.ebooks div{
+    height:350px;
+    color:#361e45;
+    font-weight: 400;
+    text-align: center;
+}
+
+.ebooks svg{
+    fill:#edc0bd;
+    margin:0.1em;
+    width:0.8em;
+    height:auto;
+}
+
+.ebook1{
+    background:url("/Mockups/Libro.jpg") no-repeat;
+    background-size: cover;
+}
+
+/*STATS*/
+
+.statsIcons{
+    margin-top:8em;
+}
+
+
+/*KAREN*/
+
+.rowKaren{
+    padding-top:9em;
+    color:#552473;
+}
+
+.karen1{
+    background: url("/Backgrounds/Frame\ 350.png") no-repeat;
+    background-size: cover;
+}
+
+.karen1 div{
+    padding:5em;
+    text-align:start;
+}
+
+.karen1 #button1karen{
+    background:#4fd6c5;
+    color:white;
+    border:solid 2px #4fd6c5;
+}
+
+.karen1 #button2karen{
+    background:transparent;
+    color:#4fd6c5;
+    border:solid 2px #4fd6c5;
+}
+
+.karen2{
+    background: url("/Backgrounds/Frame\ 351.png") no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.karen2 img{
+    z-index: 10;
+    margin-left: -10em;
+}
+
+/*BLOG*/
+
+.sectionBlog{
+    padding: 5em 0;
+    color:#552473;
+}
+
+
+/*NewsLetter*/
+
+.sectionNewsletter{
+    padding: 5em 0;
+    background:#fbefee;
+    color:#552473;
+}
+
+.sectionNewsletter form{
+    width:35%;
+    margin-top: 1em;
+}
+
+.sectionNewsletter form input{
+   border-top: none;
+   border-right: none;
+   border-left: none;
+   background: transparent;
+   width:100%;
+   border-bottom: solid 3px #361e45;
+   padding:10px 0;
+}
+
+.sectionNewsletter form input::placeholder{
+    color:#361e45;
+    font-size: 1.15em;
+ }
+
+/*Comments*/
+
+.sectionComments{
+    padding: 5em 0;
+}
+
+blockquote{
+    background: #f7f7f7;
+}
+
+blockquote svg{
+    fill:#edc0bd;
+    margin:0.1em;
+    width:0.8em;
+    height:auto;
+}
+
+/*FOOTER*/
+footer{
+    padding:5em 0;
+    background:#f7f7f7;
+    color:#552473;
+}
+
+footer svg{
+    width: 1.25em;
+    height:1.25em;
+    color:#552473;
+    margin-right:1em;
+}
