@@ -9,6 +9,10 @@
     background:#edc0bd;
 }
 
+.topBar p {
+    font-weight: 600;
+}
+
 .secondBar{
     padding:0 8.5em;
 }
